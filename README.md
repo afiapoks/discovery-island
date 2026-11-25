@@ -27,12 +27,12 @@ not presented as new inventions.
 - Complete one short learning game with explanations for each answer.
 - Ask a guide a Space question, see its sources, and open a related activity.
 
-The activities are built and checked ahead of time. AI selects from those
+The activities will be built and checked ahead of time. AI will select from those
 activities instead of generating executable code or new simulations.
 
 ## Building with Kiro
 
-Start with [KIRO-START.md](KIRO-START.md). The root [.kiro](.kiro/) directory
+Start with [KIRO-START.md](KIRO-START.md). The root [.kiro](https://github.com/afiapoks/discovery-island/tree/main/.kiro) directory
 contains the product and development guidance and a draft implementation spec.
 These initial documents were prepared with Codex; Kiro has not implemented this
 project yet. Actual Kiro work and review results will be recorded in

@@ -9,6 +9,9 @@
 - Kiro use on this project: none yet. These files are starter inputs for Kiro.
 - Kiro credits spent on this setup: zero.
 - Paid inference: none configured.
+- Public repository: https://github.com/afiapoks/discovery-island
+- Setup checks: local links, steering metadata, unchecked task status, private-ID
+  exclusion, and Git whitespace checks passed. GitHub showed root .kiro and MIT.
 - Type check, app tests, browser checks, deployment: not applicable yet.
 - Earlier unrelated experiments are not part of this project or its Kiro provenance.
 

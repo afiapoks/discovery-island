@@ -19,8 +19,8 @@ features before submitting. Do not claim unimplemented features or completed tes
 
 - [ ] Working new application built during the official submission period.
 - [ ] Actual Kiro implementation recorded with honest Codex/Kiro attribution.
-- [ ] Public GitHub repository with an identifiable open source license.
-- [ ] Root .kiro directory and relevant specs/steering committed and visible.
+- [x] Public GitHub repository with an identifiable open source license.
+- [x] Root .kiro directory and relevant specs/steering committed and visible.
 - [ ] Source, assets, attribution, verified setup instructions, and environment notes.
 - [ ] Working app URL that judges can open and test.
 - [ ] Written feature description and specific explanation of Kiro usage.
