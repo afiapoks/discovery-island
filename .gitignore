@@ -1,0 +1,16 @@
+node_modules/
+dist/
+coverage/
+.vite/
+.vercel/
+.netlify/
+.DS_Store
+*.log
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+
+# Keep .kiro tracked: it is required for the hackathon submission.
+# Account IDs, credit codes, verification documents, and personal screenshots
+# belong outside this public repository.
