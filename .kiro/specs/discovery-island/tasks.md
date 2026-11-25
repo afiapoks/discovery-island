@@ -1,31 +1,36 @@
 # Implementation tasks
 
-All tasks are initially unchecked. Work on one task per authorized Kiro session.
+Tasks 1 to 5 were implemented with Codex after Afia authorized coding while the
+Kiro grant was pending. They do not represent Kiro work. The live AI portion of
+task 6 and all final delivery requirements remain pending. Work on one remaining
+task per authorized Kiro session.
 
-- [ ] 1. Review the draft spec and scaffold the visual Space explorer.
+- [x] 1. Review the draft spec and scaffold the visual Space explorer.
   - Create a minimal React/TypeScript/Vite app and configure type check/build.
   - Show original Earth, Moon, Sun illustrations and three accessible hotspots.
   - Verify the scene, keyboard selection, type check, and production build.
   - Explain the main files and record actual results in the build log.
 
-- [ ] 2. Review sources and write the first content library.
+- [x] 2. Review sources and write the first content library.
   - Check facts and rights against authoritative sources in docs/CONTENT.md.
   - Write original explanations, source metadata, and three game questions.
   - Mark reviewed material accurately and connect topic panels to source links.
 
-- [ ] 3. Implement the day/night experiment.
+- [x] 3. Implement the day/night experiment.
   - Document geometry; add pure calculations, slider, diagram, labels, and Reset.
   - Verify known positions, keyboard operation, and the rotation explanation.
 
-- [ ] 4. Implement the Moon phases experiment.
+- [x] 4. Implement the Moon phases experiment.
   - Document geometry; add an Earth-view inset, orbit control, labels, and Reset.
   - Verify named phases and distinguish phases from Earth-shadow eclipses.
 
-- [ ] 5. Implement the learning game and connected discovery flow.
+- [x] 5. Implement the learning game and connected discovery flow.
   - Add checked questions, explanations, retry, and links to the two activities.
   - Verify a complete explorer-to-experiment-to-game interaction.
 
-- [ ] 6. Implement the guide with checked sources and explicit fallback.
+- [ ] 6. Implement live AI behind the existing checked library guide.
+  - Codex implemented the prepared fallback, reading levels, source links, input
+    bounds, and source/activity allowlist validation. No provider is configured.
   - Choose a provider and budget before activating live inference.
   - Add the server endpoint, bounded requests, source/activity validation,
     chosen reading level, timeout handling, and a labeled curated fallback.

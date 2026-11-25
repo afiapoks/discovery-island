@@ -1,6 +1,7 @@
 # Design
 
-Status: proposed architecture for Kiro to review during implementation.
+Status: local prototype implemented by Codex. Kiro should review the existing
+implementation before its next authorized task.
 
 ## Experience
 
@@ -15,11 +16,11 @@ The guide and game link into these same activities instead of duplicating them.
 
 ## Proposed files
 
-- src/app/: the app shell and navigation state.
-- src/worlds/space/: illustrated scene, hotspot panels, and activity components.
+- src/App.tsx: the app shell, explorer, guide UI, and navigation state.
+- src/components/: original illustrations, the experiments, and the quiz.
 - src/science/: pure geometry and illumination calculations, with documented units.
 - src/content/: checked, original explanation text and source metadata.
-- src/guide/: client interface and labeled curated fallback.
+- src/guide/: prepared library matcher and source/activity reference validation.
 - api/guide.ts: a future server endpoint, adapted to the chosen deployment host.
 - tests/: meaningful science, guide validation, and key interaction checks.
 
@@ -40,7 +41,8 @@ rotation positions. Add a short explanation that the diagrams simplify scale.
 
 Each content passage has a stable ID, an original summary, its source URL, and
 the reviewed claims it supports. The initial source candidates and review process
-are in docs/CONTENT.md. Nothing is marked reviewed until someone checks it.
+are in docs/CONTENT.md. The first source checks were performed by Codex and are documented by claim.
+They do not substitute for a human factual review of representative explanations.
 
 The server retrieves relevant checked passages, sends a bounded context plus a
 reading-level instruction to the selected model, and validates the structured

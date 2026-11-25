@@ -1,46 +1,32 @@
-# Kiro implementation kickoff
+# Next Kiro session
 
-This is a prepared prompt for the next authorized Kiro build session.
-It has not been executed. Repository setup did not spend Kiro credits.
+This prompt is prepared for a future authorized Kiro session. It has not been run.
+Afia authorized Codex to implement the first local prototype while awaiting the
+grant. Do not recreate the scaffold or call Codex's changes your own work.
 
-## Before the session
+## Before spending credits
 
-- Confirm the current credit balance and the task Afia wants implemented.
-- An unapproved credit request is not an available credit balance.
-- Choose the AI provider and any spending limit before enabling paid inference.
-- Use this repository as the working directory.
+Confirm Afia's requested next task and the actual available Kiro balance.
+Read README.md, docs/CODE-GUIDE.md, docs/BUILD-LOG.md, .kiro/steering/*.md, and
+.kiro/specs/discovery-island/*.md. Inspect the existing app before changing it.
+Choose the inference provider, hosting approach, and spending limit with Afia
+before any paid model calls. Development credits do not pay for deployed AI use.
 
-## First prompt
+## Candidate next task
 
-Read README.md, .kiro/steering/*.md, and the three files in
-.kiro/specs/discovery-island/. This is a new Kiroween Resurrection project.
-The starter documents were written with Codex and are draft inputs for your
-review, not evidence of work you have already performed.
+Make a meaningful Kiro contribution to the source-grounded guide. The existing
+library guide is a deterministic prepared fallback, not live AI. Do not relabel
+it as AI or claim the final hackathon requirement is met by having .kiro files.
 
-Work as one agent on task 1 only. Review the requirements and design for obvious
-conflicts, then scaffold a minimal React, TypeScript, and Vite app with an
-illustrated Space scene and keyboard-accessible Earth, Moon, and Sun hotspots.
-Use simple original SVG and CSS. Keep interactions lightweight for a slow laptop.
+After Afia chooses a provider and budget, implement task 6: a server-side endpoint
+with bounded input/context, a timeout, structured response validation, verified
+source IDs and allowlisted activity IDs, an explicit fallback, and no persistent
+child question history. Keep credentials out of the client and repository.
 
-Do not implement experiments, quizzes, backend inference, deployment, or later
-tasks in this session. Do not launch subagents or background build loops.
-Use no paid inference service for this first task.
+Use one agent on the authorized task only. No unattended loops or subagents.
+Run meaningful checks, explain the main code choices, and record actual Kiro work
+and credit use in docs/BUILD-LOG.md. Stop and report after the task.
 
-Explain the purpose of the main files and why you chose the component structure
-in plain language. Run the type check and production build that you configure.
-Record only checks you actually ran, including failures, in docs/BUILD-LOG.md.
-Leave task 1 unchecked if its acceptance conditions have not passed.
-Report the files changed, verification results, and next useful task, then stop.
-
-## Why we start here
-
-A clickable scene lets us test the feel of the product before building the rest.
-Small tasks make it easier for Afia to understand the code, catch mistakes, and
-control development credits. This first task also establishes real Kiro usage.
-
-## Later sessions
-
-Use one unchecked task from tasks.md per session. Reuse the spec and steering
-documents instead of asking for a fresh project plan. Expand scope only when
-Afia requests it. Add an actual Kiro hook only when a concrete workflow needs one;
-do not create pretend hook output or claim a tool was used when it was not.
+If provider/budget decisions remain open, the next authorized Kiro task can be a
+concrete improvement to the experiments, accessibility, or guide matching instead.
+A review alone must not be exaggerated as application implementation.

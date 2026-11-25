@@ -1,6 +1,7 @@
 # Requirements
 
-Status: draft supplied to Kiro for review. No implementation is complete.
+Status: Codex built the first local prototype on November 25. Live AI, actual Kiro
+development, human factual review, deployment, and submission are still pending.
 
 ## 1. Visual discovery
 
@@ -59,7 +60,8 @@ As a child, I want to ask a Space question and receive help that I can investiga
 
 ## 6. Delivery
 
-- Kiro implements the application from these instructions, with truthful provenance.
+- Codex and Afia may implement code. Kiro must still make a meaningful, recorded
+  contribution to the application before submission, with truthful attribution.
 - The public repository contains the source, assets, setup instructions, MIT license,
   root .kiro directory, and third-party attribution.
 - The final app has a working URL and a coherent explore-to-quiz demo path.

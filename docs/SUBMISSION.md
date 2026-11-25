@@ -12,8 +12,10 @@ as a visual browser learning world. Children explore Space, investigate day/nigh
 and Moon phases, and play a learning game. A source-grounded AI guide connects
 their questions to explanations at a chosen reading level and checked activities.
 
-This describes the planned application. Revise it to match the actual working
-features before submitting. Do not claim unimplemented features or completed tests.
+Current status: the visual world, experiments, quiz, and prepared library guide
+work locally. The source-grounded live AI guide, meaningful Kiro development, and
+public deployment are still pending. Revise the description to match the final
+app before submitting; do not present the current library guide as live AI.
 
 ## Checklist
 
@@ -21,7 +23,8 @@ features before submitting. Do not claim unimplemented features or completed tes
 - [ ] Actual Kiro implementation recorded with honest Codex/Kiro attribution.
 - [x] Public GitHub repository with an identifiable open source license.
 - [x] Root .kiro directory and relevant specs/steering committed and visible.
-- [ ] Source, assets, attribution, verified setup instructions, and environment notes.
+- [x] Prototype source, original assets, attribution, and verified local setup.
+  - No provider environment variables are required for the prepared guide.
 - [ ] Working app URL that judges can open and test.
 - [ ] Written feature description and specific explanation of Kiro usage.
 - [ ] Public YouTube demo under three minutes showing the actual app working.
